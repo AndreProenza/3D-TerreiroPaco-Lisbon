@@ -9,10 +9,10 @@ https://user-images.githubusercontent.com/78174997/144131087-261ae7dd-e464-4014-
 
 ## Introduction
 
-Using Virtual Reality Scenarios to Treat Phobias and Others
-psychological disorders are getting more frequent. This project goal is to
-model from scratch a 3D virtual scene that could have been used for the purpose of
-treatment of these phobias.
+Using virtual reality scenarios to treat phobias and other
+psychological disorders is getting more frequent. The project goal is to
+model from scratch a 3D virtual scene that could have been used with the purpose of
+treating these phobias.
 
 The virtual setting portrayed in this work is an urban setting inspired by Lisbon's `Terreiro do Paço` or `Praça do Comércio`.
 To portray this 3D scenario, `Blender` was used as the main tool.
