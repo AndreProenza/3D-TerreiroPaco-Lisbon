@@ -62,11 +62,11 @@ The work is divided into two parts:
 - Modeling of the desired scenario;
 - Animation with images captured with two cameras, one with the aerial view of the scenery and another that simulates the point of view of someone taking a a walk in the square.
 
-Praça do Comércio (Google Earth)
+Figure 1 - Praça do Comércio (Google Earth)
 
 ![2](https://user-images.githubusercontent.com/78174997/147681231-9eae1e99-6d66-4cca-a354-5f40f6c6b240.png)
 
-Praça do Comércio (Google Earth) with measurements
+Figure 2 - Praça do Comércio (Google Earth) with measurements
 
 ![3](https://user-images.githubusercontent.com/78174997/147681694-c37e599b-832e-4dba-acb9-e674666d11ad.png)
 
@@ -106,20 +106,96 @@ For the two front columns we used cylinders with several faces by placing them
 on cubes that served as the base.
 
 
-Chamfering Function with Cornice Molding
+Figure 3 - Chamfering Function with Cornice Molding
 
 ![4](https://user-images.githubusercontent.com/78174997/147682554-c3d50299-a005-4b28-aa28-1b13bf27c2f5.png)
 
-Arch
+Figure 4 - Arch
 
 ![5](https://user-images.githubusercontent.com/78174997/147682626-69aeaf2c-c60e-4de0-bf8b-fe4da9e54075.png)
 
-column
+Figure 5 - Column
 
 ![6](https://user-images.githubusercontent.com/78174997/147682701-e70773aa-e842-4a80-b199-05d438d1295b.png)
 
 
+### Central Statue of King José
 
 
+To model the central statue of King D. Joseph we start at the base of the statue, In
+Edit Mode -> Add we introduce a circle of radius 10m, and through a scale
+change of scale we turned it into an ellipse to better represent the shape of the base
+of the real statue.
+
+We created another circle exactly like it and placed it on the same axis as the X and
+Y axis, but the Z axis was slightly enlarged to create a first step.
+Next we created the steps that represent the stairs of the statue.
+Following the same procedure, we placed successive circles,
+progressively increasing the Z axis (position of the object) and applying
+constant changes of scale in the upper circles.
+
+To maintain the coherence of the positioning and the height of the stairs' steps,
+we were guided by the Euler Mode XYZ, where for each upper stair we increased the
+Scale Z by 0.3 and decreased the Scale X and Y by 0.04 in order to create a visual effect of the steps in an upward direction.
+After the stairs we modeled the upper base of the statue.
+To do this we created another circle, turned it into an ellipse, placed it on the
+axis above the stairs and then dragged some vertices to create the squares at each end of the ellipse, to resemble the real statue.
+
+Then we create a column. Object Mode -> Add -> Mesh -> Cube. We took the cube
+cube, applied a scale change
+to make it longer. We added another cube and applied another
+change of scale to flatten it as much as possible to make the detail of the
+column.
+To make the top of the column we inserted another cube, and using the
+Knife tool we cut it in half.
+We applied several changes of scale to make it look like the figure 6.
+
+Then for the top we introduced a cylinder and a cone and reduced both
+objects. We multiplied that column 16 times putting 4 columns for each square of the
+top.
+To imitate the statue's bars we added a cube and flattened it in width
+to resemble the width of the grid. We did the same for each of the
+different dimensions of the grids.
+
+Then we finally built the statue part.
+We placed three cubes, one for the middle and two for the sides. We applied
+so that the middle cube is 9m wide by 4.5m long, and those on the sides are
+long and the ones on the sides are 4.5m wide by 1m long.
+
+To lay the statue of King Joseph we placed a cylinder 5m high and centered it with the rectangle centered it with the rectangle in the middle.
+For the statue itself we imported two free models from the internet
+a man and a horse and sat them on top of the cylinder.
+
+
+Figure 6 - Statue Column
+
+![7](https://user-images.githubusercontent.com/78174997/147683466-d85c8fea-188b-4818-a638-d4b65313a824.png)
+
+
+Figure 7 - Statue Render Image
+
+![8](https://user-images.githubusercontent.com/78174997/147683482-5de3d6e7-b5a7-462d-998c-dc8eb142d8d7.png)
+
+
+### Spheres
+
+We created 5 spheres and put them in the center of
+Commerce Square. For their creation we did Add -> Mesh -> UV Sphere.
+To replicate the waits we did
+just ctrl C ctrlV or else Shift + D.
+To make the sphere really round, we clicked
+on the sphere and right-click and choose the choose the Smooth Shade option.
+Next we choose the materials for the sphere,
+first a color in Base Color and then we move
+Metallic and Roughness properties to have 5 spheres with different levels of brightness and transparencies (Figure 8)
+
+Figure 8 - Menu for creating the sphere specifications
+
+![9](https://user-images.githubusercontent.com/78174997/147684288-f2a2abff-a0ab-4940-8cee-b0a812f7544c.png)
+
+
+Figure 9 - View of the spheres
+
+![10](https://user-images.githubusercontent.com/78174997/147684314-7b3331dd-c8d0-43ff-9315-97e386ae04bd.png)
 
 
