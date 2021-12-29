@@ -44,7 +44,16 @@ To perform the modeling, Google Earth was used to verify the actual measurements
 ## More about 3D-TerreiroPaco-Lisbon
 
 
+Praça do Comércio (Blender)
+
 ![1](https://user-images.githubusercontent.com/78174997/147681421-631dd0fc-cc1c-47bd-aaca-2f27f2213fb8.png)
+
+
+Praça do Comércio (Real)
+
+<img src="https://user-images.githubusercontent.com/78174997/147690753-3e29967b-5794-4705-a4e1-35f1f9273a34.jpg" width="760" height="370"/>
+
+
 
 #
 
@@ -125,6 +134,10 @@ Figure 5 - Column
 #
 
 ### Central Statue of King José
+
+Statue of King José (Real)
+
+<img src="https://user-images.githubusercontent.com/78174997/147691993-0b982aa5-e613-4d8f-a2fa-aa8181754edb.jpg" width="520" height="500"/>
 
 
 To model the central statue of King D. Joseph we start at the base of the statue, In
