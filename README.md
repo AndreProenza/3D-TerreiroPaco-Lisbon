@@ -577,4 +577,59 @@ Figure 37 - Creating the animation
 
 ![38png](https://user-images.githubusercontent.com/78174997/147689161-5ed8a43f-d87f-4c12-b82b-731717fead22.png)
 
+To create the camera path we did Add->Curve->Path.
+Curve->Path.
+We clicked on the Cube and in Object Constraint Modifier-> we added Follow Path->
+Target: the line we want it to follow (Figure 38 ). To add path
+we right-click on the path in Edit Mode and click on Extrude
+Curve and Move or E and make the path our way.
+For the camera to move we select the Fixed Position option (Figure 38) and in the
+initial position we set the Offset Factor option to 0 and click the button next to this
+option, when we want it to end, we set the camera to the frame that we want the
+end camera and set it to 1 and click on the ball next to this property to fix the positions in in the animation editor. Then we click on Animate Path.
+The bird's eye view animation was made with 3 cameras traversing the Commerce Square,
+when we want to tell the duration and frame time that each camera has we do what
+what was said in the previous paragraph. The cameras in this mode were recorded at an altitude of about 90 metersof altitude to simulate a drone.
+The first-person view animation was done with 5 cameras traversing the Praça do
+Comercio Square. This camera simulates the view from a person's perspective.
+We used several cameras, 8 cameras in total, and to make their transitions in the Editor
+Timeline we clicked on the desired camera and did Marker->Bind Camera to Markers
+to select that the camera we want to record at that moment is the main camera
+and the one that has the view and is recording at that moment (Figure 39)
 
+Figure 38 - Creating the Animation
+
+![39](https://user-images.githubusercontent.com/78174997/147689780-06742dff-4ad0-49af-a9d9-71bebfce77da.png)
+
+
+Figure 39 - Creating the Animation
+
+![40](https://user-images.githubusercontent.com/78174997/147689789-cf0c0347-19a9-4039-92a4-c49ace6099fd.png)
+
+
+Here we show the view of the paths of our cameras. To make the animation
+we had to put the end in the editor noddo to end at the final value that we want the
+end the animation
+
+Figure 40 - Creating the Animation
+
+![41](https://user-images.githubusercontent.com/78174997/147689937-13417230-8f19-4e13-acb3-e3b3caa3991b.png)
+
+
+Figure 41 - Frames and recording the animation
+
+![42](https://user-images.githubusercontent.com/78174997/147689947-0999a9c5-ddea-499a-b3aa-927b3d599677.png)
+
+
+Material used
+
+- https://www.youtube.com/watch?v=wum312hb8to&list=LL&index=1
+- https://www.youtube.com/watch?v=mkD7S7wLx1I&list=LL&index=2&t=219s
+- https://www.youtube.com/watch?v=snkXktDTPCM&list=LL&index=3
+- https://www.youtube.com/watch?v=-3WbH_VzmG4&list=LL&index=4
+- https://www.youtube.com/watch?v=LeYUk3Ob5W8&list=LL&index=5
+- https://www.youtube.com/watch?v=HMbWj_KX-4k&list=LL&index=6
+- https://www.youtube.com/watch?v=KSZaTEGVowY&list=LL&index=7&t=253s
+- https://github.com/ranjian0/building_tool
+- https://free3d.com/pt/3d-model/pigeons-in-fence-62670.html
+- https://free3d.com/pt/
