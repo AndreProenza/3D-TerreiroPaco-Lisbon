@@ -90,6 +90,11 @@ We will now explain how to proceed to perform each part of the modeling work in 
 
 ### Augusta Street Arch
 
+Augusta Street Arch (Real)
+
+<img src="https://user-images.githubusercontent.com/78174997/147692279-8c0166e2-8c34-4b0c-bd32-21f430e37adc.jpg" width="520"/>
+
+
 To make the arc of Augusta Street, first we added two cubes that were placed at a distance of 9 meters from each other.
 were placed at a distance of 9 meters from each other, then we made a scale increase on the Y axis to make each cube into a parallelepiped enlarged to a height of 20m and we increased the scale on the x-axis until we reached the measurements of length. So each of these cubes became columns (supports) of the arch.
 
