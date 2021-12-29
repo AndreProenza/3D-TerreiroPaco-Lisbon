@@ -75,7 +75,7 @@ Figure 2 - Praça do Comércio (Google Earth) with measurements
 
 #
 
-### Part 1 - Modeling
+## Part 1 - Modeling
 
 We will now explain how to proceed to perform each part of the modeling work in Blender.
 
@@ -444,6 +444,137 @@ Figure 30 - Pigeons
 
 ![31](https://user-images.githubusercontent.com/78174997/147687619-661d4253-529b-4865-95d2-d4d38c54a308.png)
 
+ #
+ 
+ ### Stairway by the river
 
+To model the stairs by the river, we start with Edit Mode -> Add
+introduce a circle of radius 70m, and by changing the scale
+we make it into an ellipse by flattening the sides.
+With the Knife tool we cut the object in half, leaving only half
+of the circle.
+We created another circle exactly like it and placed it on the same axis as the X and
+Y,
+axis, but the Z-axis was slightly shortened so as to create a first step in a downward direction.
+
+
+Figure 31 - Stairway by the river
+
+![32](https://user-images.githubusercontent.com/78174997/147687867-4cdc286c-2114-4eed-bb8d-d2d75cfd712d.png)
+
+To create the other 3 steps, we followed the same process, and to
+positioned correctly we were guided by the XYZ Euler Mode, where for each upper stair
+Scale Z and Scale X while keeping Scale Y the same.
+
+#
+
+### Buildings
+
+We start by making a facade on one side. We create a parallelepiped
+with Add-> Mesh-> Cube, making just one block that corresponds to a window. From
+Next we made an array to recreate the various windows on each floor. Columns were created
+from a cube. For the different floors we always did the same method described
+above. The borders and details were made in the same way as described in
+Point of the Buildings.
+After that the columns were made from a cylinder.
+For the roof we took a cube and removed one of the faces by clicking M->Alt
+Center and decreased the height of the pyramid from one of the vertices.
+After creating one side of the building we replicated it and rotated it to recreate
+the building.
+For the blank space between the facades we put a cube to fill and
+put it all together.
+
+Figure 32 - Building Facade
+
+![33](https://user-images.githubusercontent.com/78174997/147688013-0fab0a66-4c10-447a-96a4-608bb90b8862.png)
+
+#
+
+### Projections
+
+### Perspective Projection
+
+In a perspective projection the parallel lines parallel to the plane of projection are maintained.
+In Figure 33 we see that the blue lines are not parallel to the plane of projection.
+Therefore, the blue and green lines are not parallel to the plane of projection,
+will not maintain their parallelism. As the user's perspective is an aerial perspective, therefore being above the horizon line, then we can recognize three vanishing points
+points, realizing that each one is positioned on its respective horizon line.
+
+Figure 33 - Perspetive Projection
+
+![34](https://user-images.githubusercontent.com/78174997/147688236-7c658813-5d2d-4734-afe0-516185b62e8e.png)
+
+
+### Parallel Projection
+
+In a parallel projection the plane of projection cannot be parallel to the Direction of
+projection.
+In Figure 34 we observe an orthogonal parallel projection, because all lines
+maintain their parallelisms. We verify this because the projectors are parallel to each other and to the
+direction of projection. We drew some lines in the figure below to prove this.
+
+
+Figure 34 - Parallel Projection
+
+![35](https://user-images.githubusercontent.com/78174997/147688437-4c3aea5b-2b9e-4648-8685-1ef73cc84eea.png)
+
+
+#
+
+### Shading
+
+In the Flat Shading algorithm, also known as constant or uniform shading
+assigns the same color to all pixels belonging to the image of a given polygon, thus
+each polygon of an object is colored in its entirety with the same color. The result
+clear evidence of polygons, in the transition between adjacent polygons there is a discontinuity corresponding to the normal discontinuity. This discontinuity is easily detectable by our eyes and is even amplified due to the effect of the Mach bands
+where there is a difference in coloration between adjacent faces, our eyes tend to exaggerate this difference, at the boundary between two faces, the dark face looks darker and the lighter face appears lighter.
+The advantage of this algorithm is the low computation cost and the disadvantage is that
+in curved or circular objects, it removes the natural circular effect, making the objects less
+realistic due to the ease of detection of these polygons.
+To apply this algorithm to the ball, we select the ball in Object Mode
+then the right mouse button and then "Flatten Shade".
+
+Figure 35 - Flat Shading Ball
+
+![36](https://user-images.githubusercontent.com/78174997/147688722-877aa85e-8f5f-42d4-abb1-b2f31481eebc.png)
+
+
+The Gouraud Shading algorithm, also known as Shading with interpolation
+intensities, the intensities of the vertices are calculated from the normals at the vertices. At each vertex the average of the normals of the polygons sharing the vertex is taken as the normal to the surface.
+of the polygons that share the same vertex. Thus, this algorithm calculates the
+color of the pixels on the edges based on the colors of the polygons adjacent to them,
+then the color of each pixel is based on the colors of the pixels on the edges. The
+problem with this algorithm is that you can lose highligths, the brightness of a bright object
+that were expected to be present in the image because this algorithm interpolates colors
+because this algorithm interpolates colors from the colors of the vertices. So, when
+happens a highligth in the center it will be rendered poorly because the algorithm depends
+the vertices, but when there is a highligth in the corner of the polygon there is no longer
+this problem.
+To apply this algorithm to the ball, we select the ball in Object Mode and click on the
+the direct mouse button and select "Smooth Shading".
+
+
+Figure 36 - Gouraud Shading Ball
+
+![37](https://user-images.githubusercontent.com/78174997/147688897-59e8fc35-ed3a-4b24-a75d-bc50a801253b.png)
+
+
+#
+
+## Part 2 - Animation
+
+The animation was made using the Follow Path method, which consists of an object
+to follow a certain path.
+For its realization we created an empty cube
+to put the camera inside and follow its path,
+Add -> Empty -> Cube, (Figure 37) and create a
+Add-> Camera (Figure 37).
+Then we clicked on the camera and the empty
+Cube and we made the following control Ctrl + P to join
+the 2 objects into one Figure.
+
+Figure 37 - Creating the animation
+
+![38png](https://user-images.githubusercontent.com/78174997/147689161-5ed8a43f-d87f-4c12-b82b-731717fead22.png)
 
 
