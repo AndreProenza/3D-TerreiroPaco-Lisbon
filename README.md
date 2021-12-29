@@ -46,6 +46,7 @@ To perform the modeling, Google Earth was used to verify the actual measurements
 
 ![1](https://user-images.githubusercontent.com/78174997/147681421-631dd0fc-cc1c-47bd-aaca-2f27f2213fb8.png)
 
+#
 
 ### Introduction
 
@@ -62,6 +63,8 @@ The work is divided into two parts:
 - Modeling of the desired scenario;
 - Animation with images captured with two cameras, one with the aerial view of the scenery and another that simulates the point of view of someone taking a a walk in the square.
 
+# 
+
 Figure 1 - Praça do Comércio (Google Earth)
 
 ![2](https://user-images.githubusercontent.com/78174997/147681231-9eae1e99-6d66-4cca-a354-5f40f6c6b240.png)
@@ -70,6 +73,7 @@ Figure 2 - Praça do Comércio (Google Earth) with measurements
 
 ![3](https://user-images.githubusercontent.com/78174997/147681694-c37e599b-832e-4dba-acb9-e674666d11ad.png)
 
+#
 
 ### Part 1 - Modeling
 
@@ -118,6 +122,7 @@ Figure 5 - Column
 
 ![6](https://user-images.githubusercontent.com/78174997/147682701-e70773aa-e842-4a80-b199-05d438d1295b.png)
 
+#
 
 ### Central Statue of King José
 
@@ -176,6 +181,7 @@ Figure 7 - Statue Render Image
 
 ![8](https://user-images.githubusercontent.com/78174997/147683482-5de3d6e7-b5a7-462d-998c-dc8eb142d8d7.png)
 
+#
 
 ### Spheres
 
@@ -198,4 +204,29 @@ Figure 9 - View of the spheres
 
 ![10](https://user-images.githubusercontent.com/78174997/147684314-7b3331dd-c8d0-43ff-9315-97e386ae04bd.png)
 
+#
+
+### Buildings
+
+We start by creating a column by adding a cube Add -> Mesh -> Cube and
+we approximately measure the height of the building's columns.
+To make the details in the column (Figure 11) we select the square at the base
+of this column and made an E and clicked on Z to raise the column a certain height, then
+we select each of the faces around to create the details of the column, selected
+each face, E + (X or Y) depends on the direction you want -> select the edge underneath ->
+Cntrl B and modify the Bevel settings so that we create these edges. Then
+we select a base again in order to increase the height. After the column is done
+we duplicate the column. To connect one column to the other we do E until it touches the other one in order to
+join them together.
+
+To create the arc we used a cylinder, eliminate the two bases and half of the
+faces, then create its bases again. We put this semi-cylinder between the two columns and did Alt+S to create the arc. To complete the remaining space
+we put a Cube to occupy the free space between the arc and the two columns.
+To replicate all the arcs we took Figure 12 and removed one of the columns, then Ctrl J.
+To make the several columns we did Modifier Properties -> Add Modifier -> Array -> Count.
+Modifier -> Array -> Count. We set the Count depending on the number of arcs we wanted.
+
+The inner arches of the buildings we use the same ones created in Figure 12.
+just make them a little wider by changing the arc. To replicate them we used the same
+Modifier Properties -> Add Modifier -> Array -> Count.
 
