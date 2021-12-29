@@ -276,6 +276,42 @@ Figure 14 - Building columns
 ![15](https://user-images.githubusercontent.com/78174997/147685452-89b0c92d-e2b2-461d-9346-38707bd4474f.png)
 
 
+#
+
+### Textures
+
+On all the objects in our work we apply images to the objects in order to create a more real effect. The images were all taken from Google and
+worked in order to be as real as possible. To add a texture to an object it is necessary to do the following steps:
+- Click on the object and go to Material Properties -> select a New in order to
+make a new material (Figures)
+
+- Then go to the menu Shading that is on top in the same line of the Layout
+- In the Shading editor choose Add-> Texture -> Image Texture or simply drag the image there.
+- Connect the color from the Image Texture menu to the Base Color from the Principled BSDF menu We perform this method on all objects in our project.
+
+Figure 15 - Creating a Texture Material
+
+![16](https://user-images.githubusercontent.com/78174997/147686050-ed29d50e-c4ce-4cb9-a3af-d113566c73e4.png)
+
+
+Figure 16 - Creating a Material to add Texture
+
+![17](https://user-images.githubusercontent.com/78174997/147686061-12b1ff06-08d6-455a-8e39-ed2f2c34dfc9.png)
+
+
+Figure 17 - Inserting an Image to Add Texture
+
+![18](https://user-images.githubusercontent.com/78174997/147686071-9d7ea4f0-f03e-4c3e-b8dd-fafb4783b757.png)
+
+
+To improve the texture and get it right select UV Editing, select the piece to
+to put the texture into, enter the Edit Mode, select the face to be moved and adjust the vertices
+so that the image looks the way we want it.
+
+Figure 18 - UV Editing Menu
+
+![19](https://user-images.githubusercontent.com/78174997/147686184-50e0dc5e-a66b-4c90-8ddd-858a1d3a36b1.png)
+
 
 
 
