@@ -40,3 +40,26 @@ To perform the modeling, Google Earth was used to verify the actual measurements
 - Blender
 
 ---
+
+## More about 3D-TerreiroPaco-Lisbon
+
+![1](https://user-images.gthubusercontent.com/78174997/147681113-6bfe3dcb-b80c-4d1a-bd04-7fe101e95b52.png)
+
+
+### Introduction
+
+The use of virtual reality scenarios for the treatment of phobias and other 
+psychological disorders is increasingly common. The goal of this paper is to
+model from scratch a 3D virtual scenario that could have been used for the
+treatment of these phobias.
+
+The virtual scenario depicted in this work is an urban scenario inspired by the Praça Do Comércio of the city of Lisbon. To portray this scenario we used the "Blender" tool.
+
+To make the modeling of the Praça do Comércio we based on the model of the Praça do Comércio from Google Earth. And from it we created a plan with the real measures.
+
+The work is divided into two parts:
+- Modeling of the desired scenario;
+- Animation with images captured with two cameras, one with the aerial view of the scenery and another that simulates the point of view of someone taking a a walk in the square.
+
+![2](https://user-images.githubusercontent.com/78174997/147681231-9eae1e99-6d66-4cca-a354-5f40f6c6b240.png)
+*Praça do Comércio (Google Earth)*
