@@ -61,7 +61,7 @@ To make the modeling of the Praça do Comércio we based on the model of the Pra
 
 The work is divided into two parts:
 - Modeling of the desired scenario;
-- Animation with images captured with two cameras, one with the aerial view of the scenery and another that simulates the point of view of someone taking a a walk in the square.
+- Animation with images captured with two cameras, one with the aerial view of the scenery and another that simulates the point of view of someone taking a walk in the square.
 
 # 
 
