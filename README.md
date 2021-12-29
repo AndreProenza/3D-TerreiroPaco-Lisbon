@@ -312,6 +312,137 @@ Figure 18 - UV Editing Menu
 
 ![19](https://user-images.githubusercontent.com/78174997/147686184-50e0dc5e-a66b-4c90-8ddd-858a1d3a36b1.png)
 
+#
+
+### Floor and lamps
+
+The lamps were taken from a free online format and applied to the
+work. There are 4 lamps in the center of the Praça do comercio.
+The floor of all the buildings and the whole shopping plaza was made with
+Planes and we gave texture, Add-> Mesh-> Plane.
+There are some that are higher than the others in order to simulate a small step or
+level deviation between one floor and another, for this we simply increased the
+value of Z since they are all at the same level.
+The floor in Figure 20 was made only the parts selected in red and
+then applied Modifier Properties -> Add Modifier -> Array -> Count.
+
+Figure 19 - Pavement
+
+![20](https://user-images.githubusercontent.com/78174997/147686534-297d42fc-a29c-47b7-adf5-d1bc3bc2ae2b.png)
+
+Figure 20 - Pavement
+
+![21](https://user-images.githubusercontent.com/78174997/147686539-4fac656b-332e-455d-9a40-07b5c309350e.png)
+
+Figure 21 - Lamp
+
+![22](https://user-images.githubusercontent.com/78174997/147686621-02600cea-e7cb-4c45-8e0a-157ca0be61b2.png)
+
+
+#
+
+### Sky and Sun
+
+Figure 22 - Sky View
+
+![23](https://user-images.githubusercontent.com/78174997/147686757-afb84c56-9465-4b6b-ad27-d54a2bc852b2.png)
+
+To create the sky, it was necessary to
+to install a blender extension.
+Through blender itself it is possible to
+make a simulation of the sky and we
+used this functionality. To
+use it we did Edit -> Preferences -> Addons
+Addons (Figure 23) and searched for
+"Dynamic Sky" and select the option
+"Lighting Dynamic Sky" option.
+we allow this option to be available
+(Figure 24).
+Next we went to Create as
+can be seen in the Figure and clicked in Create.
+Next we select the sky
+created (highlighted in red in Figure 26)
+We modify our sky by changing the properties in Figure 25 so that we create the
+our way. We chose to put in a
+blue sky (Sky Color), change the horizon color
+Horizon Color with few clouds and
+change the Cloud Opacity and Cloud
+Density
+When creating the sky we can control
+the sun and the lighting of our space at the same time.
+This option can be seen in the
+Sun Value in Figure 25, we choose to set the sun to a value of 1.0.
+
+Figure 23 - Adding the sky feature in blender
+
+![24](https://user-images.githubusercontent.com/78174997/147686768-5e3f61f0-0d30-4351-9d4c-8050f50f5df3.png)
+
+Figure 24 - Creating the sky
+
+![25](https://user-images.githubusercontent.com/78174997/147686781-daf00696-7be2-4624-bc9c-1ac42446653a.png)
+
+
+Figure 25 - Properties that change the sky
+
+![26](https://user-images.githubusercontent.com/78174997/147687155-3828721c-211b-471e-8717-120f6d97198e.png)
+
+
+Figure 26 - Creation of the sky
+
+![27](https://user-images.githubusercontent.com/78174997/147687164-3b9ed392-7bed-4dfe-9c57-9a334697011a.png)
+
+#
+
+### River
+
+Figure 27 - View of the Tagus River
+
+![28](https://user-images.githubusercontent.com/78174997/147687279-61032b75-d0ab-4623-9dbe-6f7e9c0f8b6a.png)
+
+
+For the creation of the Tagus River, we start by adding a square in, Add -> Mesh -> Plane. Next we select our Plane and access the Modifier Properties
+and change the functions marked in Figure 28 with a red rectangle, in order to
+create our river. In Repeat X and Repeat Y we choose the size of our Plane.
+We choose our Resolution and the Scale of the waves.
+
+We select the Foam option that allows us to get and choose the foam of the waves and we give it the name
+foam" and choose a Coverage of 0.1
+To get the Foam into our river and choose the color of the river we access the
+Shading Menu.
+
+We made these connections so that we could
+the river effect as can be seen in Figure 28.
+Figure 28. To add the following menus
+click on Add and choose the desired one. In the
+Principled BSDF menu we select the Base Color and
+we change the Transmisison to 1
+We add the Atributte menu and in the name we give it the same name we had given it when we activated the
+Foam option described above.
+In the ColorRamp Menu we set the brightness and
+darkness of the river.
+To make this effect we selected from the river we made
+the following connections between menus (Figure 29)
+
+Figure 28 - Properties changed for creating the river
+
+![29](https://user-images.githubusercontent.com/78174997/147687523-2b2b5130-ab37-41f6-9045-8bf023c2be89.png)
+
+
+Figure 29 - Creating the River - Texture Mode
+
+![30](https://user-images.githubusercontent.com/78174997/147687534-5e243781-4e39-4d9f-b1d1-2bc654f8cff8.png)
+
+#
+
+### Pigeons
+
+The pigeons we got a model of a pigeon online and put some pigeons
+along the praça do comercio both on the ground and on top of the buildings and the
+the arch of Rua Augusta.
+
+Figure 30 - Pigeons
+
+![31](https://user-images.githubusercontent.com/78174997/147687619-661d4253-529b-4865-95d2-d4d38c54a308.png)
 
 
 
