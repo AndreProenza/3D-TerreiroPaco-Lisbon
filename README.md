@@ -59,6 +59,6 @@ Praça do Comércio (Real)
 
 ### Documentation
 
-For further details about the project implementation and development, please check the DOCUMENTATION.md file
+For further details about the project implementation and development, please check the `DOCUMENTATION.md` file
 
 # 
