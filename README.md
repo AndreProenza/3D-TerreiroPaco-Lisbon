@@ -21,9 +21,9 @@ To perform the modeling, Google Earth was used to verify the actual measurements
 
 ---
 
-## Technologies
+## Requirements
 
-- Blender
+- [Blender](https://www.blender.org/) - Free and open source 3D creation suite;
 
 ---
 
@@ -32,12 +32,6 @@ To perform the modeling, Google Earth was used to verify the actual measurements
 - Download this zip [Terreiro do Paço - Lisboa](https://drive.google.com/file/d/1qBDZS8vcQc0IF9ftoRGI25hRdBCtIOGc/view?usp=sharing)
 - Extract 
 - Open `terreiroPaco.blender`
-
----
-
-## Requirements
-
-- Blender
 
 ---
 
@@ -53,12 +47,24 @@ Praça do Comércio (Real)
 
 <img src="https://user-images.githubusercontent.com/78174997/147690753-3e29967b-5794-4705-a4e1-35f1f9273a34.jpg" width="760" height="370"/>
 
-
-
 #
 
 ### Documentation
 
 For further details about the project implementation and development, please check the `DOCUMENTATION.md` file
+ 
+---
 
-# 
+## Used Technologies
+
+* [Blender](https://www.blender.org/) - Free and open source 3D creation suite;
+
+---
+
+## Authors
+
+* **André Proença** - [GitHub](https://github.com/AndreProenza)
+* **Manuel Sokolov** - [GitHub](https://github.com/ManuelSokolov)
+* **João Lopes** - [GitHub](#)
+
+
